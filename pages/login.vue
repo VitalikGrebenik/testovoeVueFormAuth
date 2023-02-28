@@ -1,0 +1,4 @@
+<template>
+    <NavHeader/>
+    <AuthFormSignIn/>
+</template>
