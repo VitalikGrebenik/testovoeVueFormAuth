@@ -22,7 +22,7 @@
   resolved "https://npm.code.nekotal.tech/@babel%2fcompat-data/-/compat-data-7.21.0.tgz"
   integrity sha512-gMuZsmsgxk/ENC3O/fRw5QY8A9/uxQbbCEypnLIiYYc/qVJtEV7ouxC3EllIIwNzMqAQee5tanFabWsUOutS7g==
 
-"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.20.12", "@babel/core@^7.20.5":
+"@babel/core@^7.20.12", "@babel/core@^7.20.5":
   version "7.21.0"
   resolved "https://npm.code.nekotal.tech/@babel%2fcore/-/core-7.21.0.tgz"
   integrity sha512-PuxUbxcW6ZYe656yL3EAhpy7qXKq0DmYsrJLpbB8XrsCP9Nm+XCg9XFMb5vIDliPD7+U/+M+QJlH17XOcB7eXA==
@@ -285,6 +285,36 @@
   dependencies:
     mime "^3.0.0"
 
+"@esbuild/android-arm64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fandroid-arm64/-/android-arm64-0.16.17.tgz#cf91e86df127aa3d141744edafcba0abdc577d23"
+  integrity sha512-MIGl6p5sc3RDTLLkYL1MyL8BMRN4tLMRCn+yRJJmEDvYZ2M7tmAf80hx1kbNEUX2KJ50RRtxZ4JHLvCfuB6kBg==
+
+"@esbuild/android-arm64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fandroid-arm64/-/android-arm64-0.17.10.tgz#ad2ee47dd021035abdfb0c38848ff77a1e1918c4"
+  integrity sha512-ht1P9CmvrPF5yKDtyC+z43RczVs4rrHpRqrmIuoSvSdn44Fs1n6DGlpZKdK6rM83pFLbVaSUwle8IN+TPmkv7g==
+
+"@esbuild/android-arm@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fandroid-arm/-/android-arm-0.16.17.tgz#025b6246d3f68b7bbaa97069144fb5fb70f2fff2"
+  integrity sha512-N9x1CMXVhtWEAMS7pNNONyA14f71VPQN9Cnavj1XQh6T7bskqiLLrSca4O0Vr8Wdcga943eThxnVp3JLnBMYtw==
+
+"@esbuild/android-arm@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fandroid-arm/-/android-arm-0.17.10.tgz#bb5a68af8adeb94b30eadee7307404dc5237d076"
+  integrity sha512-7YEBfZ5lSem9Tqpsz+tjbdsEshlO9j/REJrfv4DXgKTt1+/MHqGwbtlyxQuaSlMeUZLxUKBaX8wdzlTfHkmnLw==
+
+"@esbuild/android-x64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fandroid-x64/-/android-x64-0.16.17.tgz#c820e0fef982f99a85c4b8bfdd582835f04cd96e"
+  integrity sha512-a3kTv3m0Ghh4z1DaFEuEDfz3OLONKuFvI4Xqczqx4BqLyuFaFkuaG4j2MtA6fuWEFeC5x9IvqnX7drmRq/fyAQ==
+
+"@esbuild/android-x64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fandroid-x64/-/android-x64-0.17.10.tgz#751d5d8ae9ece1efa9627b689c888eb85b102360"
+  integrity sha512-CYzrm+hTiY5QICji64aJ/xKdN70IK8XZ6iiyq0tZkd3tfnwwSWTYH1t3m6zyaaBxkuj40kxgMyj1km/NqdjQZA==
+
 "@esbuild/darwin-arm64@0.16.17":
   version "0.16.17"
   resolved "https://npm.code.nekotal.tech/@esbuild%2fdarwin-arm64/-/darwin-arm64-0.16.17.tgz"
@@ -294,6 +324,186 @@
   version "0.17.10"
   resolved "https://npm.code.nekotal.tech/@esbuild%2fdarwin-arm64/-/darwin-arm64-0.17.10.tgz"
   integrity sha512-3HaGIowI+nMZlopqyW6+jxYr01KvNaLB5znXfbyyjuo4lE0VZfvFGcguIJapQeQMS4cX/NEispwOekJt3gr5Dg==
+
+"@esbuild/darwin-x64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fdarwin-x64/-/darwin-x64-0.16.17.tgz#42829168730071c41ef0d028d8319eea0e2904b4"
+  integrity sha512-2By45OBHulkd9Svy5IOCZt376Aa2oOkiE9QWUK9fe6Tb+WDr8hXL3dpqi+DeLiMed8tVXspzsTAvd0jUl96wmg==
+
+"@esbuild/darwin-x64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fdarwin-x64/-/darwin-x64-0.17.10.tgz#362c7e988c61fe72d5edef4f717e4b4fc728da98"
+  integrity sha512-J4MJzGchuCRG5n+B4EHpAMoJmBeAE1L3wGYDIN5oWNqX0tEr7VKOzw0ymSwpoeSpdCa030lagGUfnfhS7OvzrQ==
+
+"@esbuild/freebsd-arm64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2ffreebsd-arm64/-/freebsd-arm64-0.16.17.tgz#1f4af488bfc7e9ced04207034d398e793b570a27"
+  integrity sha512-mt+cxZe1tVx489VTb4mBAOo2aKSnJ33L9fr25JXpqQqzbUIw/yzIzi+NHwAXK2qYV1lEFp4OoVeThGjUbmWmdw==
+
+"@esbuild/freebsd-arm64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2ffreebsd-arm64/-/freebsd-arm64-0.17.10.tgz#e8a85a46ede7c3a048a12f16b9d551d25adc8bb1"
+  integrity sha512-ZkX40Z7qCbugeK4U5/gbzna/UQkM9d9LNV+Fro8r7HA7sRof5Rwxc46SsqeMvB5ZaR0b1/ITQ/8Y1NmV2F0fXQ==
+
+"@esbuild/freebsd-x64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2ffreebsd-x64/-/freebsd-x64-0.16.17.tgz#636306f19e9bc981e06aa1d777302dad8fddaf72"
+  integrity sha512-8ScTdNJl5idAKjH8zGAsN7RuWcyHG3BAvMNpKOBaqqR7EbUhhVHOqXRdL7oZvz8WNHL2pr5+eIT5c65kA6NHug==
+
+"@esbuild/freebsd-x64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2ffreebsd-x64/-/freebsd-x64-0.17.10.tgz#cd0a1b68bffbcb5b65e65b3fd542e8c7c3edd86b"
+  integrity sha512-0m0YX1IWSLG9hWh7tZa3kdAugFbZFFx9XrvfpaCMMvrswSTvUZypp0NFKriUurHpBA3xsHVE9Qb/0u2Bbi/otg==
+
+"@esbuild/linux-arm64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-arm64/-/linux-arm64-0.16.17.tgz#a003f7ff237c501e095d4f3a09e58fc7b25a4aca"
+  integrity sha512-7S8gJnSlqKGVJunnMCrXHU9Q8Q/tQIxk/xL8BqAP64wchPCTzuM6W3Ra8cIa1HIflAvDnNOt2jaL17vaW+1V0g==
+
+"@esbuild/linux-arm64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-arm64/-/linux-arm64-0.17.10.tgz#13b183f432512ed9d9281cc89476caeebe9e9123"
+  integrity sha512-g1EZJR1/c+MmCgVwpdZdKi4QAJ8DCLP5uTgLWSAVd9wlqk9GMscaNMEViG3aE1wS+cNMzXXgdWiW/VX4J+5nTA==
+
+"@esbuild/linux-arm@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-arm/-/linux-arm-0.16.17.tgz#b591e6a59d9c4fe0eeadd4874b157ab78cf5f196"
+  integrity sha512-iihzrWbD4gIT7j3caMzKb/RsFFHCwqqbrbH9SqUSRrdXkXaygSZCZg1FybsZz57Ju7N/SHEgPyaR0LZ8Zbe9gQ==
+
+"@esbuild/linux-arm@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-arm/-/linux-arm-0.17.10.tgz#dd11e0a5faa3ea94dc80278a601c3be7b4fdf1da"
+  integrity sha512-whRdrrl0X+9D6o5f0sTZtDM9s86Xt4wk1bf7ltx6iQqrIIOH+sre1yjpcCdrVXntQPCNw/G+XqsD4HuxeS+2QA==
+
+"@esbuild/linux-ia32@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-ia32/-/linux-ia32-0.16.17.tgz#24333a11027ef46a18f57019450a5188918e2a54"
+  integrity sha512-kiX69+wcPAdgl3Lonh1VI7MBr16nktEvOfViszBSxygRQqSpzv7BffMKRPMFwzeJGPxcio0pdD3kYQGpqQ2SSg==
+
+"@esbuild/linux-ia32@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-ia32/-/linux-ia32-0.17.10.tgz#4d836f87b92807d9292379963c4888270d282405"
+  integrity sha512-1vKYCjfv/bEwxngHERp7huYfJ4jJzldfxyfaF7hc3216xiDA62xbXJfRlradiMhGZbdNLj2WA1YwYFzs9IWNPw==
+
+"@esbuild/linux-loong64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-loong64/-/linux-loong64-0.16.17.tgz#d5ad459d41ed42bbd4d005256b31882ec52227d8"
+  integrity sha512-dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQ==
+
+"@esbuild/linux-loong64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-loong64/-/linux-loong64-0.17.10.tgz#92eb2ee200c17ef12c7fb3b648231948699e7a4c"
+  integrity sha512-mvwAr75q3Fgc/qz3K6sya3gBmJIYZCgcJ0s7XshpoqIAIBszzfXsqhpRrRdVFAyV1G9VUjj7VopL2HnAS8aHFA==
+
+"@esbuild/linux-mips64el@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-mips64el/-/linux-mips64el-0.16.17.tgz#4e5967a665c38360b0a8205594377d4dcf9c3726"
+  integrity sha512-ezbDkp2nDl0PfIUn0CsQ30kxfcLTlcx4Foz2kYv8qdC6ia2oX5Q3E/8m6lq84Dj/6b0FrkgD582fJMIfHhJfSw==
+
+"@esbuild/linux-mips64el@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-mips64el/-/linux-mips64el-0.17.10.tgz#14f7d50c40fe7f7ee545a9bd07c6f6e4cba5570e"
+  integrity sha512-XilKPgM2u1zR1YuvCsFQWl9Fc35BqSqktooumOY2zj7CSn5czJn279j9TE1JEqSqz88izJo7yE4x3LSf7oxHzg==
+
+"@esbuild/linux-ppc64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-ppc64/-/linux-ppc64-0.16.17.tgz#206443a02eb568f9fdf0b438fbd47d26e735afc8"
+  integrity sha512-dzS678gYD1lJsW73zrFhDApLVdM3cUF2MvAa1D8K8KtcSKdLBPP4zZSLy6LFZ0jYqQdQ29bjAHJDgz0rVbLB3g==
+
+"@esbuild/linux-ppc64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-ppc64/-/linux-ppc64-0.17.10.tgz#1ab5802e93ae511ce9783e1cb95f37df0f84c4af"
+  integrity sha512-kM4Rmh9l670SwjlGkIe7pYWezk8uxKHX4Lnn5jBZYBNlWpKMBCVfpAgAJqp5doLobhzF3l64VZVrmGeZ8+uKmQ==
+
+"@esbuild/linux-riscv64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-riscv64/-/linux-riscv64-0.16.17.tgz#c351e433d009bf256e798ad048152c8d76da2fc9"
+  integrity sha512-ylNlVsxuFjZK8DQtNUwiMskh6nT0vI7kYl/4fZgV1llP5d6+HIeL/vmmm3jpuoo8+NuXjQVZxmKuhDApK0/cKw==
+
+"@esbuild/linux-riscv64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-riscv64/-/linux-riscv64-0.17.10.tgz#4fae25201ef7ad868731d16c8b50b0e386c4774a"
+  integrity sha512-r1m9ZMNJBtOvYYGQVXKy+WvWd0BPvSxMsVq8Hp4GzdMBQvfZRvRr5TtX/1RdN6Va8JMVQGpxqde3O+e8+khNJQ==
+
+"@esbuild/linux-s390x@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-s390x/-/linux-s390x-0.16.17.tgz#661f271e5d59615b84b6801d1c2123ad13d9bd87"
+  integrity sha512-gzy7nUTO4UA4oZ2wAMXPNBGTzZFP7mss3aKR2hH+/4UUkCOyqmjXiKpzGrY2TlEUhbbejzXVKKGazYcQTZWA/w==
+
+"@esbuild/linux-s390x@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-s390x/-/linux-s390x-0.17.10.tgz#126254d8335bb3586918b1ca60beb4abb46e6d54"
+  integrity sha512-LsY7QvOLPw9WRJ+fU5pNB3qrSfA00u32ND5JVDrn/xG5hIQo3kvTxSlWFRP0NJ0+n6HmhPGG0Q4jtQsb6PFoyg==
+
+"@esbuild/linux-x64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-x64/-/linux-x64-0.16.17.tgz#e4ba18e8b149a89c982351443a377c723762b85f"
+  integrity sha512-mdPjPxfnmoqhgpiEArqi4egmBAMYvaObgn4poorpUaqmvzzbvqbowRllQ+ZgzGVMGKaPkqUmPDOOFQRUFDmeUw==
+
+"@esbuild/linux-x64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2flinux-x64/-/linux-x64-0.17.10.tgz#7fa4667b2df81ea0538e1b75e607cf04e526ce91"
+  integrity sha512-zJUfJLebCYzBdIz/Z9vqwFjIA7iSlLCFvVi7glMgnu2MK7XYigwsonXshy9wP9S7szF+nmwrelNaP3WGanstEg==
+
+"@esbuild/netbsd-x64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fnetbsd-x64/-/netbsd-x64-0.16.17.tgz#7d4f4041e30c5c07dd24ffa295c73f06038ec775"
+  integrity sha512-/PzmzD/zyAeTUsduZa32bn0ORug+Jd1EGGAUJvqfeixoEISYpGnAezN6lnJoskauoai0Jrs+XSyvDhppCPoKOA==
+
+"@esbuild/netbsd-x64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fnetbsd-x64/-/netbsd-x64-0.17.10.tgz#2d24727ddc2305619685bf237a46d6087a02ee9a"
+  integrity sha512-lOMkailn4Ok9Vbp/q7uJfgicpDTbZFlXlnKT2DqC8uBijmm5oGtXAJy2ZZVo5hX7IOVXikV9LpCMj2U8cTguWA==
+
+"@esbuild/openbsd-x64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fopenbsd-x64/-/openbsd-x64-0.16.17.tgz#970fa7f8470681f3e6b1db0cc421a4af8060ec35"
+  integrity sha512-2yaWJhvxGEz2RiftSk0UObqJa/b+rIAjnODJgv2GbGGpRwAfpgzyrg1WLK8rqA24mfZa9GvpjLcBBg8JHkoodg==
+
+"@esbuild/openbsd-x64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fopenbsd-x64/-/openbsd-x64-0.17.10.tgz#bf3fc38ee6ecf028c1f0cfe11f61d53cc75fef12"
+  integrity sha512-/VE0Kx6y7eekqZ+ZLU4AjMlB80ov9tEz4H067Y0STwnGOYL8CsNg4J+cCmBznk1tMpxMoUOf0AbWlb1d2Pkbig==
+
+"@esbuild/sunos-x64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fsunos-x64/-/sunos-x64-0.16.17.tgz#abc60e7c4abf8b89fb7a4fe69a1484132238022c"
+  integrity sha512-xtVUiev38tN0R3g8VhRfN7Zl42YCJvyBhRKw1RJjwE1d2emWTVToPLNEQj/5Qxc6lVFATDiy6LjVHYhIPrLxzw==
+
+"@esbuild/sunos-x64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fsunos-x64/-/sunos-x64-0.17.10.tgz#8deabd6dfec6256f80bb101bc59d29dbae99c69b"
+  integrity sha512-ERNO0838OUm8HfUjjsEs71cLjLMu/xt6bhOlxcJ0/1MG3hNqCmbWaS+w/8nFLa0DDjbwZQuGKVtCUJliLmbVgg==
+
+"@esbuild/win32-arm64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fwin32-arm64/-/win32-arm64-0.16.17.tgz#7b0ff9e8c3265537a7a7b1fd9a24e7bd39fcd87a"
+  integrity sha512-ga8+JqBDHY4b6fQAmOgtJJue36scANy4l/rL97W+0wYmijhxKetzZdKOJI7olaBaMhWt8Pac2McJdZLxXWUEQw==
+
+"@esbuild/win32-arm64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fwin32-arm64/-/win32-arm64-0.17.10.tgz#1ec1ee04c788c4c57a83370b6abf79587b3e4965"
+  integrity sha512-fXv+L+Bw2AeK+XJHwDAQ9m3NRlNemG6Z6ijLwJAAVdu4cyoFbBWbEtyZzDeL+rpG2lWI51cXeMt70HA8g2MqIg==
+
+"@esbuild/win32-ia32@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fwin32-ia32/-/win32-ia32-0.16.17.tgz#e90fe5267d71a7b7567afdc403dfd198c292eb09"
+  integrity sha512-WnsKaf46uSSF/sZhwnqE4L/F89AYNMiD4YtEcYekBt9Q7nj0DiId2XH2Ng2PHM54qi5oPrQ8luuzGszqi/veig==
+
+"@esbuild/win32-ia32@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fwin32-ia32/-/win32-ia32-0.17.10.tgz#a362528d7f3ad5d44fa8710a96764677ef92ebe9"
+  integrity sha512-3s+HADrOdCdGOi5lnh5DMQEzgbsFsd4w57L/eLKKjMnN0CN4AIEP0DCP3F3N14xnxh3ruNc32A0Na9zYe1Z/AQ==
+
+"@esbuild/win32-x64@0.16.17":
+  version "0.16.17"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fwin32-x64/-/win32-x64-0.16.17.tgz#c5a1a4bfe1b57f0c3e61b29883525c6da3e5c091"
+  integrity sha512-y+EHuSchhL7FjHgvQL/0fnnFmO4T1bhvWANX6gcnqTjtnKWbTvUMCpGnv2+t+31d7RzyEAYAd4u2fnIhHL6N/Q==
+
+"@esbuild/win32-x64@0.17.10":
+  version "0.17.10"
+  resolved "https://npm.code.nekotal.tech/@esbuild%2fwin32-x64/-/win32-x64-0.17.10.tgz#ac779220f2da96afd480fb3f3148a292f66e7fc3"
+  integrity sha512-oP+zFUjYNaMNmjTwlFtWep85hvwUu19cZklB3QsBOcZSs6y7hmH4LNCJ7075bsqzYaNvZFXJlAVaQ2ApITDXtw==
 
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
@@ -335,7 +545,7 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.13", "@jridgewell/sourcemap-codec@1.4.14":
+"@jridgewell/sourcemap-codec@1.4.14", "@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.13":
   version "1.4.14"
   resolved "https://npm.code.nekotal.tech/@jridgewell%2fsourcemap-codec/-/sourcemap-codec-1.4.14.tgz"
   integrity sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==
@@ -378,7 +588,7 @@
     "@nodelib/fs.stat" "2.0.5"
     run-parallel "^1.1.9"
 
-"@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
+"@nodelib/fs.stat@2.0.5", "@nodelib/fs.stat@^2.0.2":
   version "2.0.5"
   resolved "https://npm.code.nekotal.tech/@nodelib%2ffs.stat/-/fs.stat-2.0.5.tgz"
   integrity sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==
@@ -396,7 +606,7 @@
   resolved "https://npm.code.nekotal.tech/@nuxt%2fdevalue/-/devalue-2.0.0.tgz"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
 
-"@nuxt/kit@^3.2.0", "@nuxt/kit@3.2.2":
+"@nuxt/kit@3.2.2", "@nuxt/kit@^3.2.0":
   version "3.2.2"
   resolved "https://npm.code.nekotal.tech/@nuxt%2fkit/-/kit-3.2.2.tgz"
   integrity sha512-T3UeLxGSNl7dQgKzmtBbPEkUiiBYgXI+KkemmpkYbQK/l+bWy2f9VQw/Rl0HkQLfRTE2fS8q8jhsOedFiEnHQQ==
@@ -606,11 +816,6 @@
   resolved "https://npm.code.nekotal.tech/@trysound%2fsax/-/sax-0.2.0.tgz"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@types/cookie@^0.3.3":
-  version "0.3.3"
-  resolved "https://npm.code.nekotal.tech/@types%2fcookie/-/cookie-0.3.3.tgz"
-  integrity sha512-LKVP3cgXBT9RYj+t+9FDKwS5tdI+rPBXaNSkma7hvqy35lc7mAokC2zsqWJH0LaqIt3B962nuYI77hsJoT1gow==
-
 "@types/estree@*", "@types/estree@^1.0.0":
   version "1.0.0"
   resolved "https://npm.code.nekotal.tech/@types%2festree/-/estree-1.0.0.tgz"
@@ -621,7 +826,7 @@
   resolved "https://npm.code.nekotal.tech/@types%2fresolve/-/resolve-1.20.2.tgz"
   integrity sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==
 
-"@unhead/dom@^1.1.9", "@unhead/dom@1.1.11":
+"@unhead/dom@1.1.11", "@unhead/dom@^1.1.9":
   version "1.1.11"
   resolved "https://npm.code.nekotal.tech/@unhead%2fdom/-/dom-1.1.11.tgz"
   integrity sha512-rCRLCCZOml5UHgL381XTKefpVuGV3XP4RBeLPbDxwH/yM9Sa4sjNdgSV76r9VKy3S93ns+hGr6kE+zow1St1nQ==
@@ -629,7 +834,7 @@
     "@unhead/schema" "1.1.11"
     "@unhead/shared" "1.1.11"
 
-"@unhead/schema@^1.1.9", "@unhead/schema@1.1.11":
+"@unhead/schema@1.1.11", "@unhead/schema@^1.1.9":
   version "1.1.11"
   resolved "https://npm.code.nekotal.tech/@unhead%2fschema/-/schema-1.1.11.tgz"
   integrity sha512-BL1jERCX/ny5SoZKnqWHRTkTZRNZhVu4PJaJjFr1Be1auxAjgXnN3TecBepb/A+fNCOvPbeIaO4ItsLRIb4XQQ==
@@ -661,11 +866,6 @@
     "@unhead/shared" "1.1.11"
     hookable "^5.4.2"
     unhead "1.1.11"
-
-"@vee-validate/rules@^4.7.4":
-  version "4.7.4"
-  resolved "https://npm.code.nekotal.tech/@vee-validate%2frules/-/rules-4.7.4.tgz"
-  integrity sha512-rWpmGKB/jy7/jbuAH/pfCYoCjiYDx77geNEaYeTl07eHo+2jL+j802Ttn85cTJsMUeXzRSUauepvNCpkVWV+aA==
 
 "@vercel/nft@^0.22.6":
   version "0.22.6"
@@ -760,7 +960,7 @@
     "@vue/compiler-dom" "3.2.47"
     "@vue/shared" "3.2.47"
 
-"@vue/devtools-api@^6.1.4", "@vue/devtools-api@^6.4.5":
+"@vue/devtools-api@^6.4.5":
   version "6.5.0"
   resolved "https://npm.code.nekotal.tech/@vue%2fdevtools-api/-/devtools-api-6.5.0.tgz"
   integrity sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==
@@ -776,7 +976,7 @@
     estree-walker "^2.0.2"
     magic-string "^0.25.7"
 
-"@vue/reactivity@^3.2.47", "@vue/reactivity@3.2.47":
+"@vue/reactivity@3.2.47", "@vue/reactivity@^3.2.47":
   version "3.2.47"
   resolved "https://npm.code.nekotal.tech/@vue%2freactivity/-/reactivity-3.2.47.tgz"
   integrity sha512-7khqQ/75oyyg+N/e+iwV6lpy1f5wq759NdlS1fpAhFXa8VeAIKGgk2E/C4VF59lx5b+Ezs5fpp/5WsRYXQiKxQ==
@@ -808,7 +1008,7 @@
     "@vue/compiler-ssr" "3.2.47"
     "@vue/shared" "3.2.47"
 
-"@vue/shared@^3.2.47", "@vue/shared@3.2.47":
+"@vue/shared@3.2.47", "@vue/shared@^3.2.47":
   version "3.2.47"
   resolved "https://npm.code.nekotal.tech/@vue%2fshared/-/shared-3.2.47.tgz"
   integrity sha512-BHGyyGN3Q97EZx0taMQ+OLNuZcW3d37ZEVmEAyeoA9ERdGvm9Irc/0Fua8SNyOtV1w6BS4q25wbMzJujO9HIfQ==
@@ -1027,7 +1227,7 @@ braces@^3.0.2, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-browserslist@^4.0.0, browserslist@^4.21.3, browserslist@^4.21.4, "browserslist@>= 4.21.0":
+browserslist@^4.0.0, browserslist@^4.21.3, browserslist@^4.21.4:
   version "4.21.5"
   resolved "https://npm.code.nekotal.tech/browserslist/-/browserslist-4.21.5.tgz"
   integrity sha512-tUkiguQGW7S3IhB7N+c2MV/HZPSCPAAiYBZXLsBhFB/PCy6ZKKsZrmBayHV9fdGV/ARIfJ14NkxKzRDjvp7L6w==
@@ -1218,15 +1418,15 @@ color-convert@^2.0.1:
   dependencies:
     color-name "~1.1.4"
 
-color-name@~1.1.4:
-  version "1.1.4"
-  resolved "https://npm.code.nekotal.tech/color-name/-/color-name-1.1.4.tgz"
-  integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
-
 color-name@1.1.3:
   version "1.1.3"
   resolved "https://npm.code.nekotal.tech/color-name/-/color-name-1.1.3.tgz"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
+
+color-name@~1.1.4:
+  version "1.1.4"
+  resolved "https://npm.code.nekotal.tech/color-name/-/color-name-1.1.4.tgz"
+  integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
 color-support@^1.1.2:
   version "1.1.3"
@@ -1297,27 +1497,6 @@ cookie-es@^0.5.0:
   version "0.5.0"
   resolved "https://npm.code.nekotal.tech/cookie-es/-/cookie-es-0.5.0.tgz"
   integrity sha512-RyZrFi6PNpBFbIaQjXDlFIhFVqV42QeKSZX1yQIl6ihImq6vcHNGMtqQ/QzY3RMPuYSkvsRwtnt5M9NeYxKt0g==
-
-cookie-universal-nuxt@^2.2.2:
-  version "2.2.2"
-  resolved "https://npm.code.nekotal.tech/cookie-universal-nuxt/-/cookie-universal-nuxt-2.2.2.tgz"
-  integrity sha512-Pr6P5UCzl1EAvPh7z7jFkknBw0KTdykm6gFmPHrH4LV9s3flVmAH0ZP/ZqUXcp6b0SKZfizkn+XR1cO+QinGhQ==
-  dependencies:
-    "@types/cookie" "^0.3.3"
-    cookie-universal "^2.2.2"
-
-cookie-universal@^2.2.2:
-  version "2.2.2"
-  resolved "https://npm.code.nekotal.tech/cookie-universal/-/cookie-universal-2.2.2.tgz"
-  integrity sha512-nUXF6HH2YKbn8vGcdSzWJhjRkDHbnbekuVu2nsRu00zYsX7o/H3xGJRlPVoM4wX/8cpJYpyi9nDt+boER0Wjug==
-  dependencies:
-    "@types/cookie" "^0.3.3"
-    cookie "^0.4.0"
-
-cookie@^0.4.0:
-  version "0.4.2"
-  resolved "https://npm.code.nekotal.tech/cookie/-/cookie-0.4.2.tgz"
-  integrity sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -1456,19 +1635,19 @@ data-uri-to-buffer@^4.0.0:
   resolved "https://npm.code.nekotal.tech/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz"
   integrity sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==
 
-debug@^4.1.0, debug@^4.3.4, debug@4:
-  version "4.3.4"
-  resolved "https://npm.code.nekotal.tech/debug/-/debug-4.3.4.tgz"
-  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
-  dependencies:
-    ms "2.1.2"
-
 debug@2.6.9:
   version "2.6.9"
   resolved "https://npm.code.nekotal.tech/debug/-/debug-2.6.9.tgz"
   integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
   dependencies:
     ms "2.0.0"
+
+debug@4, debug@^4.1.0, debug@^4.3.4:
+  version "4.3.4"
+  resolved "https://npm.code.nekotal.tech/debug/-/debug-4.3.4.tgz"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+  dependencies:
+    ms "2.1.2"
 
 deepmerge@^4.2.2:
   version "4.3.0"
@@ -1718,7 +1897,7 @@ escape-string-regexp@^5.0.0:
   resolved "https://npm.code.nekotal.tech/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz"
   integrity sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==
 
-estree-walker@^2.0.1, estree-walker@^2.0.2, estree-walker@2.0.2:
+estree-walker@2.0.2, estree-walker@^2.0.1, estree-walker@^2.0.2:
   version "2.0.2"
   resolved "https://npm.code.nekotal.tech/estree-walker/-/estree-walker-2.0.2.tgz"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
@@ -2131,7 +2310,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3, inherits@2, inherits@2.0.4:
+inherits@2, inherits@2.0.4, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3:
   version "2.0.4"
   resolved "https://npm.code.nekotal.tech/inherits/-/inherits-2.0.4.tgz"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
@@ -2537,6 +2716,11 @@ micromatch@^4.0.2, micromatch@^4.0.4:
     braces "^3.0.2"
     picomatch "^2.3.1"
 
+mime@1.6.0:
+  version "1.6.0"
+  resolved "https://npm.code.nekotal.tech/mime/-/mime-1.6.0.tgz"
+  integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
+
 mime@^3.0.0:
   version "3.0.0"
   resolved "https://npm.code.nekotal.tech/mime/-/mime-3.0.0.tgz"
@@ -2546,11 +2730,6 @@ mime@~2.5.2:
   version "2.5.2"
   resolved "https://npm.code.nekotal.tech/mime/-/mime-2.5.2.tgz"
   integrity sha512-tqkh47FzKeCPD2PUiPB6pkbMzsCasjxAfC62/Wap5qrUWcb+sFasXUC5I3gYM5iBM8v/Qpn4UK0x+j0iHyFPDg==
-
-mime@1.6.0:
-  version "1.6.0"
-  resolved "https://npm.code.nekotal.tech/mime/-/mime-1.6.0.tgz"
-  integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
 
 mimic-fn@^2.1.0:
   version "2.1.0"
@@ -2564,14 +2743,7 @@ minimatch@^3.0.4, minimatch@^3.1.1:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^5.0.1:
-  version "5.1.6"
-  resolved "https://npm.code.nekotal.tech/minimatch/-/minimatch-5.1.6.tgz"
-  integrity sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==
-  dependencies:
-    brace-expansion "^2.0.1"
-
-minimatch@^5.1.0:
+minimatch@^5.0.1, minimatch@^5.1.0:
   version "5.1.6"
   resolved "https://npm.code.nekotal.tech/minimatch/-/minimatch-5.1.6.tgz"
   integrity sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==
@@ -3254,7 +3426,7 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.2.0:
   resolved "https://npm.code.nekotal.tech/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@^8.0.0, postcss@^8.0.9, postcss@^8.1.0, postcss@^8.1.10, postcss@^8.2.15, postcss@^8.2.2, postcss@^8.4.21:
+postcss@^8.1.10, postcss@^8.4.21:
   version "8.4.21"
   resolved "https://npm.code.nekotal.tech/postcss/-/postcss-8.4.21.tgz"
   integrity sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==
@@ -3272,11 +3444,6 @@ process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://npm.code.nekotal.tech/process-nextick-args/-/process-nextick-args-2.0.1.tgz"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
-
-property-expr@^2.0.5:
-  version "2.0.5"
-  resolved "https://npm.code.nekotal.tech/property-expr/-/property-expr-2.0.5.tgz"
-  integrity sha512-IJUkICM5dP5znhCckHSv30Q4b5/JA5enCtkRHYaOVOAocnH/1BQEYTC5NMfT3AVl/iXKdr3aqQbQn9DxyWknwA==
 
 protocols@^2.0.0, protocols@^2.0.1:
   version "2.0.1"
@@ -3326,33 +3493,7 @@ read-cache@^1.0.0:
   dependencies:
     pify "^2.3.0"
 
-readable-stream@^2.0.0:
-  version "2.3.8"
-  resolved "https://npm.code.nekotal.tech/readable-stream/-/readable-stream-2.3.8.tgz"
-  integrity sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.3"
-    isarray "~1.0.0"
-    process-nextick-args "~2.0.0"
-    safe-buffer "~5.1.1"
-    string_decoder "~1.1.1"
-    util-deprecate "~1.0.1"
-
-readable-stream@^2.0.1:
-  version "2.3.8"
-  resolved "https://npm.code.nekotal.tech/readable-stream/-/readable-stream-2.3.8.tgz"
-  integrity sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.3"
-    isarray "~1.0.0"
-    process-nextick-args "~2.0.0"
-    safe-buffer "~5.1.1"
-    string_decoder "~1.1.1"
-    util-deprecate "~1.0.1"
-
-readable-stream@^2.0.5:
+readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.5:
   version "2.3.8"
   resolved "https://npm.code.nekotal.tech/readable-stream/-/readable-stream-2.3.8.tgz"
   integrity sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==
@@ -3454,7 +3595,7 @@ rollup-plugin-visualizer@^5.9.0:
     source-map "^0.7.4"
     yargs "^17.5.1"
 
-rollup@^1.20.0||^2.0.0||^3.0.0, rollup@^2.68.0||^3.0.0, rollup@^2.78.0||^3.0.0, "rollup@^2.x || ^3.x", rollup@^3.10.0, rollup@^3.16.0, rollup@^3.17.2, "rollup@2.x || 3.x":
+rollup@^3.10.0, rollup@^3.16.0, rollup@^3.17.2:
   version "3.17.3"
   resolved "https://npm.code.nekotal.tech/rollup/-/rollup-3.17.3.tgz"
   integrity sha512-p5LaCXiiOL/wrOkj8djsIDFmyU9ysUxcyW+EKRLHb6TKldJzXpImjcRSR+vgo09DBdofGcOoLOsRyxxG2n5/qQ==
@@ -3480,7 +3621,7 @@ rxjs@^7.5.7:
   dependencies:
     tslib "^2.1.0"
 
-safe-buffer@^5.1.0:
+safe-buffer@^5.1.0, safe-buffer@~5.2.0:
   version "5.2.1"
   resolved "https://npm.code.nekotal.tech/safe-buffer/-/safe-buffer-5.2.1.tgz"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
@@ -3489,11 +3630,6 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://npm.code.nekotal.tech/safe-buffer/-/safe-buffer-5.1.2.tgz"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
-
-safe-buffer@~5.2.0:
-  version "5.2.1"
-  resolved "https://npm.code.nekotal.tech/safe-buffer/-/safe-buffer-5.2.1.tgz"
-  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
@@ -3505,12 +3641,7 @@ scule@^1.0.0:
   resolved "https://npm.code.nekotal.tech/scule/-/scule-1.0.0.tgz"
   integrity sha512-4AsO/FrViE/iDNEPaAQlb77tf0csuq27EsVpy6ett584EcRTp6pTDLoGWVxCD77y5iU5FauOvhsI4o1APwPoSQ==
 
-semver@^6.0.0:
-  version "6.3.0"
-  resolved "https://npm.code.nekotal.tech/semver/-/semver-6.3.0.tgz"
-  integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
-
-semver@^6.3.0:
+semver@^6.0.0, semver@^6.3.0:
   version "6.3.0"
   resolved "https://npm.code.nekotal.tech/semver/-/semver-6.3.0.tgz"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
@@ -3650,6 +3781,24 @@ std-env@^3.3.2:
   resolved "https://npm.code.nekotal.tech/std-env/-/std-env-3.3.2.tgz"
   integrity sha512-uUZI65yrV2Qva5gqE0+A7uVAvO40iPo6jGhs7s8keRfHCmtg+uB2X6EiLGCI9IgL1J17xGhvoOqSz79lzICPTA==
 
+"string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
+  version "4.2.3"
+  resolved "https://npm.code.nekotal.tech/string-width/-/string-width-4.2.3.tgz"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+string-width@^5.0.1, string-width@^5.1.2:
+  version "5.1.2"
+  resolved "https://npm.code.nekotal.tech/string-width/-/string-width-5.1.2.tgz"
+  integrity sha512-HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA==
+  dependencies:
+    eastasianwidth "^0.2.0"
+    emoji-regex "^9.2.2"
+    strip-ansi "^7.0.1"
+
 string_decoder@^1.1.1:
   version "1.3.0"
   resolved "https://npm.code.nekotal.tech/string_decoder/-/string_decoder-1.3.0.tgz"
@@ -3663,33 +3812,6 @@ string_decoder@~1.1.1:
   integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
   dependencies:
     safe-buffer "~5.1.0"
-
-"string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
-  version "4.2.3"
-  resolved "https://npm.code.nekotal.tech/string-width/-/string-width-4.2.3.tgz"
-  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
-
-string-width@^5.0.1:
-  version "5.1.2"
-  resolved "https://npm.code.nekotal.tech/string-width/-/string-width-5.1.2.tgz"
-  integrity sha512-HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA==
-  dependencies:
-    eastasianwidth "^0.2.0"
-    emoji-regex "^9.2.2"
-    strip-ansi "^7.0.1"
-
-string-width@^5.1.2:
-  version "5.1.2"
-  resolved "https://npm.code.nekotal.tech/string-width/-/string-width-5.1.2.tgz"
-  integrity sha512-HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA==
-  dependencies:
-    eastasianwidth "^0.2.0"
-    emoji-regex "^9.2.2"
-    strip-ansi "^7.0.1"
 
 strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
@@ -3795,7 +3917,7 @@ tar@^6.1.11, tar@^6.1.13:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-terser@^5.15.1, terser@^5.4.0:
+terser@^5.15.1:
   version "5.16.5"
   resolved "https://npm.code.nekotal.tech/terser/-/terser-5.16.5.tgz"
   integrity sha512-qcwfg4+RZa3YvlFh0qjifnzBHjKGNbtDo9yivMqMFDy9Q6FSaQWSB/j1xKhsoUFJIqDOM3TsN6D5xbrMrFcHbg==
@@ -3809,11 +3931,6 @@ through@^2.3.6:
   version "2.3.8"
   resolved "https://npm.code.nekotal.tech/through/-/through-2.3.8.tgz"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
-
-tiny-case@^1.0.3:
-  version "1.0.3"
-  resolved "https://npm.code.nekotal.tech/tiny-case/-/tiny-case-1.0.3.tgz"
-  integrity sha512-Eet/eeMhkO6TX8mnUteS9zgPbUMQa4I6Kkp5ORiBD5476/m+PIRiumP5tmh5ioJpH7k51Kehawy2UDfsnxxY8Q==
 
 tiny-invariant@^1.1.0:
   version "1.3.1"
@@ -3844,11 +3961,6 @@ toidentifier@1.0.1:
   resolved "https://npm.code.nekotal.tech/toidentifier/-/toidentifier-1.0.1.tgz"
   integrity sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==
 
-toposort@^2.0.2:
-  version "2.0.2"
-  resolved "https://npm.code.nekotal.tech/toposort/-/toposort-2.0.2.tgz"
-  integrity sha1-riF2gXXRVZ1IvvNUILL0li8JwzA=
-
 tr46@~0.0.3:
   version "0.0.3"
   resolved "https://npm.code.nekotal.tech/tr46/-/tr46-0.0.3.tgz"
@@ -3864,7 +3976,7 @@ type-fest@^0.21.3:
   resolved "https://npm.code.nekotal.tech/type-fest/-/type-fest-0.21.3.tgz"
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
 
-type-fest@^2.11.2, type-fest@^2.19.0:
+type-fest@^2.11.2:
   version "2.19.0"
   resolved "https://npm.code.nekotal.tech/type-fest/-/type-fest-2.19.0.tgz"
   integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
@@ -3904,7 +4016,7 @@ unenv@^1.2.0, unenv@^1.2.1:
     node-fetch-native "^1.0.2"
     pathe "^1.1.0"
 
-unhead@^1.0.22, unhead@1.1.11:
+unhead@1.1.11, unhead@^1.0.22:
   version "1.1.11"
   resolved "https://npm.code.nekotal.tech/unhead/-/unhead-1.1.11.tgz"
   integrity sha512-R7hObRUhNNIWxiZSNiIPXEzA0QJT+hTvvud+FVhqdQzUhkFXhzE1fYuGYI8Ktsr+f8YgefuuDA9f0Mo4q+CRmA==
@@ -3990,13 +4102,6 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://npm.code.nekotal.tech/util-deprecate/-/util-deprecate-1.0.2.tgz"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vee-validate@^4.7.4:
-  version "4.7.4"
-  resolved "https://npm.code.nekotal.tech/vee-validate/-/vee-validate-4.7.4.tgz"
-  integrity sha512-pfhKluYimYvSQIiFoIY29NAgl0j24DqPsodlCny/NlOrYbougdjbL1C9yYqmba4Ka3YUY6vOZ0GE2wcwMsKQ5A==
-  dependencies:
-    "@vue/devtools-api" "^6.1.4"
-
 vite-node@^0.28.5:
   version "0.28.5"
   resolved "https://npm.code.nekotal.tech/vite-node/-/vite-node-0.28.5.tgz"
@@ -4033,7 +4138,7 @@ vite-plugin-checker@^0.5.5:
     vscode-languageserver-textdocument "^1.0.1"
     vscode-uri "^3.0.2"
 
-"vite@^3.0.0 || ^4.0.0", vite@^4.0.0, vite@>=2.0.0, vite@~4.1.2:
+"vite@^3.0.0 || ^4.0.0", vite@~4.1.2:
   version "4.1.4"
   resolved "https://npm.code.nekotal.tech/vite/-/vite-4.1.4.tgz"
   integrity sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==
@@ -4108,12 +4213,7 @@ vue-router@^4.1.6:
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-vue-validate@^1.0.1:
-  version "1.0.1"
-  resolved "https://npm.code.nekotal.tech/vue-validate/-/vue-validate-1.0.1.tgz"
-  integrity sha512-VPsk0lVELlXVHSG8BBFnioQfHoInkLJWSqqFP0sdOLUmtWBZa1q+85yfqPJ5a9bSbKpZfRmyvlsrxn/YZtWMDQ==
-
-vue@^3.0.0, vue@^3.2.0, vue@^3.2.25, vue@^3.2.47, "vue@>=2.7 || >=3", vue@3.2.47:
+vue@^3.2.47:
   version "3.2.47"
   resolved "https://npm.code.nekotal.tech/vue/-/vue-3.2.47.tgz"
   integrity sha512-60188y/9Dc9WVrAZeUVSDxRQOZ+z+y5nO2ts9jWXSTkMvayiWxCWOWtBQoYjLeccfXkiiPZWAHcV+WTPhkqJHQ==
@@ -4245,16 +4345,6 @@ yargs@^17.5.1:
     string-width "^4.2.3"
     y18n "^5.0.5"
     yargs-parser "^21.1.1"
-
-yup@^1.0.2:
-  version "1.0.2"
-  resolved "https://npm.code.nekotal.tech/yup/-/yup-1.0.2.tgz"
-  integrity sha512-Lpi8nITFKjWtCoK3yQP8MUk78LJmHWqbFd0OOMXTar+yjejlQ4OIIoZgnTW1bnEUKDw6dZBcy3/IdXnt2KDUow==
-  dependencies:
-    property-expr "^2.0.5"
-    tiny-case "^1.0.3"
-    toposort "^2.0.2"
-    type-fest "^2.19.0"
 
 zhead@^2.0.4:
   version "2.0.4"
