@@ -1,18 +1,19 @@
 <script setup lang="ts">
-    const article: Dashboard = ref({})
+    import { Dashboard } from './dashboard.interface';
+    import axios from 'axios';
+
+    const article = ref<Dashboard>({full_name: '', email: ''})
 
     const tokenCookies = useCookie('token')
     const apiUrlProfile = 'https://my.shtab.app/api/users/profile/'
 
     async function fetchArticle() {
-        const response = await fetch<Dashboard>(apiUrlProfile, {
-            method: 'GET',
-            headers: {
-                Authorization: `Token ${tokenCookies.value}`
-            }
-        })
-        const data: Dashboard = await response.json()
-        article.value = data
+      const response = await axios.get<Dashboard>(apiUrlProfile, {
+              headers: {
+                  Authorization: `Token ${tokenCookies.value}`
+              }
+        });
+        article.value = response.data;
     }
     if(!tokenCookies.value){
         navigateTo('/')
@@ -85,5 +86,11 @@ button:hover {
 button:focus {
   outline: none;
   border-width: 2px;
+}
+
+@media (max-width: 768px){
+    h1 {
+      font-size: 1.5rem;
+  }
 }
 </style>

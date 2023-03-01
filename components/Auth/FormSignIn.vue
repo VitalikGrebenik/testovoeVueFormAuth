@@ -25,7 +25,7 @@
             <div class="error">{{ passwordError }}</div>
         </div>
         <div v-if="checkForm" class="error">Invalid email or password</div>
-        <button  v-if='isLoading' :disabled='isLoading' class='buttonLoading'>
+        <button v-if='isLoading' :disabled='isLoading' class='buttonLoading'>
           <span>loading..</span>
         </button>
         <button v-else :disabled='!checkInputCheck'>
@@ -36,6 +36,8 @@
 </template>
 <script setup lang="ts">
   import { useField } from 'vee-validate'
+  import { AuthData, AuthResponse } from './formSignIn.interface';
+  import axios from 'axios';
 
   const { value: email, errorMessage: emailError } = useField('email', validateFieldInput)
   const { value: password, errorMessage: passwordError } = useField('password', validateFieldPassword)
@@ -71,25 +73,18 @@
         username: email.value,
         password: password.value,
       }
-      const { data, error } = await useFetch<AuthResponse>(apiUrl, {
-        method: 'POST',
-        body: form
-      })
-      if(!!error.value){
-        errorCheck(true)
-      } else {
-        tokenCookies.value = data.value.token
+      const { data } = await axios.post<AuthResponse>(apiUrl, form);
+        tokenCookies.value = data.token
         errorCheck(false)
         navigateTo('/profile')
-      }
-      isLoading.value = false
       } catch (error) {
         console.error(error);
-    }
+      } finally {
+        isLoading.value = false
+        errorCheck(true)
+      }
   }
 </script>
-
-
 <style scoped>
 .app {
     margin-top: 60px;
@@ -102,6 +97,11 @@
 .header {
   margin-bottom: 1rem;
 }
+@media (max-width: 768px){
+    .header {
+    margin-bottom: 0rem;
+  }
+}
 .error {
   color: red;
 }
@@ -111,11 +111,17 @@
   place-items: start;
   background: white;
 	width: 100%;
-	max-width: 40%;
+	max-width: 60%;
   border-radius: 10px;
   padding: 2em;
   grid-gap: .5em;
-  margin: 0 25% 0 25%;
+  margin: 0 15% 0 15%;
+}
+@media (max-width: 768px){
+    .login-form {
+    max-width: 100%;
+    margin: 0px 10%;
+  }
 }
   
 .input {
