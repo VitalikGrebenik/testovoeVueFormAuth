@@ -846,13 +846,6 @@
   resolved "https://npm.code.nekotal.tech/@types%2festree/-/estree-1.0.0.tgz#5fb2e536c1ae9bf35366eed879e827fa59ca41c2"
   integrity sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==
 
-"@types/http-proxy@^1.17.5":
-  version "1.17.10"
-  resolved "https://npm.code.nekotal.tech/@types%2fhttp-proxy/-/http-proxy-1.17.10.tgz#e576c8e4a0cc5c6a138819025a88e167ebb38d6c"
-  integrity sha512-Qs5aULi+zV1bwKAg5z1PWnDXWmsn+LxIvUGv6E2+OOMYhclZMO+OXd9pYVf2gLykf2I7IV2u7oTHwChPNsvJ7g==
-  dependencies:
-    "@types/node" "*"
-
 "@types/node@*":
   version "18.14.2"
   resolved "https://npm.code.nekotal.tech/@types%2fnode/-/node-18.14.2.tgz#c076ed1d7b6095078ad3cf21dfeea951842778b1"
