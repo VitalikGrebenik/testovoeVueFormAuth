@@ -3,7 +3,6 @@
     import axios from 'axios';
 
     const article = ref<Dashboard>({full_name: '', email: ''})
-
     const tokenCookies = useCookie('token')
     const apiUrlProfile = 'https://my.shtab.app/api/users/profile/'
 
