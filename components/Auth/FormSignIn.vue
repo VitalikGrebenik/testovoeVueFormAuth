@@ -115,118 +115,167 @@
 <style scoped>
 
 .togglePassword {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
-.togglePassword i {
-  font-size: 1.25rem;
-  color: #1c1c1c;
-}
-.app {
-    margin-top: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .togglePassword i {
+    font-size: 1.25rem;
+    color: #1c1c1c;
+  }
+  .app {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      animation: fade 0.7s;
+  }
+  .containerApp{
+      width: 100%;
+      max-width: 40%;
+    background: white;
+    border-radius: 10px;
+    padding: 2em;
+    margin: 0 15% 0 15%;
+  }
+  .error {
+    color: red;
+  }
+  .linkBlok{
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 1rem;
-    animation: fade 0.7s;
-}
-.containerApp{
-	width: 100%;
-	max-width: 40%;
-  background: white;
-  border-radius: 10px;
-  padding: 2em;
-  margin: 0 15% 0 15%;
-}
+    margin-top: 20px;
+  }
+  .linkPassword{
+    color: grey;
+  }
+  .linkPassword:hover{
+    color: rgb(255, 45, 45);
+  }
+  .loginForm {
+    display: grid;
+    place-items: start;
+    grid-gap: .5em;
+  }
+    
+  .input {
+    height: 1.2rem;
+    border-width: 0 0 2px;
+    font-size: inherit;
+    width: 100%;
+    opacity: 0.6;
+  }
+  .input:focus {
+    border-color: #2d9cdb;
+    outline: none;
+    opacity: 1;
+  }
+  .formInputBlok{
+    width: 100%;
+  }
+    
+  label {
+    opacity: 0.6;    
+  }
   
-.header {
-  margin-bottom: 1rem;
-}
-@media (max-width: 768px){
+  .blokLogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .buttonSihIn{
+    width: 100%;
+    margin-top: 1rem;
+    background: 
+      linear-gradient(90deg, rgb(217 217 217) 0%, rgb(0 135 199) 100%);
+  }
+  
+  .buttonRegister {
+    background: 
+      linear-gradient(90deg, rgb(217 217 217) 0%, rgb(63 215 106) 100%);
+  }
+  
+  .buttonLoading{
+    width: 100%;
+    margin-top: 1rem;
+    background: 
+      linear-gradient(90deg, rgb(217 217 217) 0%, rgb(125 125 125) 100%)
+  }
+  
+  @media (max-width: 768px){
     .header {
-    margin-bottom: 0rem;
+        font-size: 20px;
+    }
+    .containerApp {
+        padding: 1em;
+    }
+    .buttonRegister {
+        padding: 0.25rem 1rem;
+        padding: 0.25rem 0.5rem;
+        font-size: 11px;
+    }
+    .buttonSihIn {
+        margin-top: 0.5rem;
+        padding: 0.5em 1em;
+    }
+    .linkBlok {
+        margin-top: 10px;
+    }
+    label {
+        font-size: 15px;
+    }
+    .input {
+        font-size: 13px;
+    }
+    .linkPassword {
+        font-size: 11px;
+    }
+    .error {
+        font-size: 12px;
+    }
   }
-}
-.error {
-  color: red;
-}
-.linkBlok{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-.linkPassword{
-  color: grey;
-}
-.linkPassword:hover{
-  color: rgb(255, 45, 45);
-}
-  
-.loginForm {
-  display: grid;
-  place-items: start;
-  grid-gap: .5em;
-}
-@media (max-width: 768px){
-    .loginForm {
-    max-width: 100%;
-    margin: 0px 10%;
+  @media (max-width: 481px){
+    .containerApp {
+        padding: 0.5em;
+    }
+    .app {
+      margin-top: 30px;
   }
-}
-  
-.input {
-  height: 1.2rem;
-  border-width: 0 0 2px;
-  font-size: inherit;
-  width: 100%;
-  opacity: 0.6;
-}
-  
-.input:focus {
-  border-color: #2d9cdb;
-  outline: none;
-  opacity: 1;
-}
-.formInputBlok{
-  width: 100%;
-}
-  
-label {
-  opacity: 0.6;    
-}
-.blokLogin{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.buttonSihIn{
-  width: 100%;
-  margin-top: 1rem;
-  background: 
-    linear-gradient(90deg, rgb(217 217 217) 0%, rgb(0 135 199) 100%);
-}
-
-.buttonRegister {
-  margin-bottom: 1rem;
-  background: 
-    linear-gradient(90deg, rgb(217 217 217) 0%, rgb(63 215 106) 100%);
-}
-
-.buttonLoading{
-  width: 100%;
-  margin-top: 1rem;
-  background: 
-    linear-gradient(90deg, rgb(217 217 217) 0%, rgb(125 125 125) 100%)
-}
+    .buttonLoading {
+        font-size: 14px;
+        padding: 0.25rem 0.5rem;
+    }
+    .error {
+        font-size: 8px;
+    }
+    .buttonRegister {
+        padding: 0.25rem 0.5rem;
+        font-size: 11px;
+    }
+    .buttonSihIn {
+        font-size: 14px;
+        padding: 0.25rem 0.5rem;
+    }
+    label {
+        font-size: 13px;
+    }
+    .input {
+        font-size: 10px;
+    }
+    .linkPassword {
+        font-size: 8px;
+    }
+  }
 
 </style>
