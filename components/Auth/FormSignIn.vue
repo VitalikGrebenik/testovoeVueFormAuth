@@ -138,8 +138,8 @@
       animation: fade 0.7s;
   }
   .containerApp{
-      width: 100%;
-      max-width: 40%;
+    width: 100%;
+    max-width: 50%;
     background: white;
     border-radius: 10px;
     padding: 2em;
@@ -214,11 +214,15 @@
   }
   
   @media (max-width: 768px){
+    .app {
+      margin-top: 30px;
+    }
     .header {
         font-size: 20px;
     }
     .containerApp {
         padding: 1em;
+        max-width: 60%;
     }
     .buttonRegister {
         padding: 0.25rem 1rem;
