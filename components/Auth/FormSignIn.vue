@@ -240,7 +240,7 @@ label {
   }
   .containerApp {
     padding: 1em;
-    max-width: 60%;
+    max-width: 80%;
   }
   .buttonRegister {
     padding: 0.25rem 1rem;
@@ -269,9 +269,10 @@ label {
 }
 @media (max-width: 481px) {
   .containerApp {
-    padding: 0.5em;
+    margin: 0;
   }
   .app {
+    padding: 0;
     margin-top: 30px;
   }
   .buttonLoading {
