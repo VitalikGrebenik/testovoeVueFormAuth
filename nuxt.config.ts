@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       charset: "utf-8",
-      // viewport: "width=device‑width, initial‑scale=1",
+      viewport: "width=device-width, initial-scale=1.0, user‑scalable=no",
       title: "Form Auth Shtab",
       meta: [{ name: "description", content: "Form Auth Shtab" }],
       link: [
