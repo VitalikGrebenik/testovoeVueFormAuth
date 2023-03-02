@@ -2,49 +2,83 @@
   <div class="app">
     <div class="containerApp">
       <div class="blokLogin">
-          <h1 class="header">Login</h1>
-          <button @click="redirectRegister" class="buttonRegister">
-            <span>Register</span>
-          </button>
+        <h1 class="header">
+          Login
+        </h1>
+        <button
+          class="buttonRegister"
+          @click="redirectRegister"
+        >
+          <span>Register</span>
+        </button>
       </div>
-      <form @submit.prevent='onSubmit' class="loginForm">
+      <form
+        class="loginForm"
+        @submit.prevent="onSubmit"
+      >
         <div class="formInputBlok">
           <label for="username">Username</label>
           <input
             id="email"
-            type="email" 
-            class="input"
-            placeholder='enter your email' 
             v-model="email" 
-          />
-          <div v-if="emailError" class="error">{{ emailError }}</div>
+            type="email"
+            class="input" 
+            placeholder="enter your email" 
+          >
+          <div
+            v-if="emailError"
+            class="error"
+          >
+            {{ emailError }}
+          </div>
         </div>
         <div class="formInputBlok">
           <label for="password">Password</label>
           <div class="input-wrapper">
             <input 
               id="password"
+              v-model="password" 
               :type="passwordVisibility ? 'password' : 'text'" 
-              class="input" 
-              v-model="password"
-              placeholder='enter your password' 
-            />
-            <div class="togglePassword" @click="togglePasswordVisibility">
-              <i :class="passwordVisibility ? 'fa fa-eye-slash' : 'fa fa-eye fa-fw'"></i>
+              class="input"
+              placeholder="enter your password" 
+            >
+            <div
+              class="togglePassword"
+              @click="togglePasswordVisibility"
+            >
+              <i :class="passwordVisibility ? 'fa fa-eye-slash' : 'fa fa-eye fa-fw'" />
             </div>
           </div>
-            <div class="error">{{ passwordError }}</div>
+          <div class="error">
+            {{ passwordError }}
+          </div>
         </div>
-        <div v-if="checkForm" class="error">Invalid email or password</div>
-        <button class="buttonLoading" v-if='isLoading' :disabled='isLoading'>
+        <div
+          v-if="checkForm"
+          class="error"
+        >
+          Invalid email or password
+        </div>
+        <button
+          v-if="isLoading"
+          class="buttonLoading"
+          :disabled="isLoading"
+        >
           <span>loading..</span>
         </button>
-        <button class="buttonSihIn" v-else>
+        <button
+          v-else
+          class="buttonSihIn"
+        >
           <span>Sign In</span>
         </button>
       </form>
       <div class="linkBlok">
-          <a class="linkPassword" href="https://my.shtab.app/auth/restore-password" target="_blank">Forgot your password?</a>
+        <a
+          class="linkPassword"
+          href="https://my.shtab.app/auth/restore-password"
+          target="_blank"
+        >Forgot your password?</a>
       </div>
     </div>
   </div>

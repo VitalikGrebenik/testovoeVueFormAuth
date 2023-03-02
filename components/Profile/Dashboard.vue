@@ -1,10 +1,17 @@
 <template>
   <div class="app">
     <div class="loginForm">
-      <h1 class="header">Login</h1>
+      <h1 class="header">
+        Login
+      </h1>
       <h2>username: {{ dateProfile.full_name }}</h2>
       <h2>email: {{ dateProfile.email }}</h2>
-      <button class="buttonExit" @click="loginExit">Exit</button>
+      <button
+        class="buttonExit"
+        @click="loginExit"
+      >
+        Exit
+      </button>
     </div>
   </div>
 </template>

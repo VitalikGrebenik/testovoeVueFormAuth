@@ -1,4 +1,4 @@
 <template>
-    <NavHeader/>
-    <ProfileDashboard/>
+  <NavHeader />
+  <ProfileDashboard />
 </template>
