@@ -57,6 +57,6 @@
   padding: 1rem;
   border: none;
   height: 100vh;
-  animation: fade 0.7s;
+  animation: smoothly 0.7s;
 }
 </style>
