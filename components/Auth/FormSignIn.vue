@@ -139,7 +139,7 @@
   }
   .containerApp{
     width: 100%;
-    max-width: 50%;
+    max-width: 40%;
     background: white;
     border-radius: 10px;
     padding: 2em;
