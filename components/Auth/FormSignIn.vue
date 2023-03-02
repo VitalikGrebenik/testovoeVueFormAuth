@@ -1,7 +1,13 @@
 <template>
   <div class="app">
-      <form @submit.prevent='onSubmit' class="login-form">
-        <h1 class="header">Login</h1>
+    <div class="containerApp">
+      <div class="blokLogin">
+          <h1 class="header">Login</h1>
+          <button @click="redirectRegister" class="buttonRegister">
+            <span>Register</span>
+          </button>
+      </div>
+      <form @submit.prevent='onSubmit' class="loginForm">
         <div class="formInputBlok">
           <label for="username">Username</label>
           <input
@@ -15,23 +21,32 @@
         </div>
         <div class="formInputBlok">
           <label for="password">Password</label>
-          <input 
-            id="password"
-            type="password" 
-            class="input" 
-            v-model="password"
-            placeholder='enter your password' 
+          <div class="input-wrapper">
+            <input 
+              id="password"
+              :type="passwordVisibility ? 'password' : 'text'" 
+              class="input" 
+              v-model="password"
+              placeholder='enter your password' 
             />
+            <div class="togglePassword" @click="togglePasswordVisibility">
+              <i :class="passwordVisibility ? 'fa fa-eye-slash' : 'fa fa-eye fa-fw'"></i>
+            </div>
+          </div>
             <div class="error">{{ passwordError }}</div>
         </div>
         <div v-if="checkForm" class="error">Invalid email or password</div>
-        <button v-if='isLoading' :disabled='isLoading' class='buttonLoading'>
+        <button class="buttonLoading" v-if='isLoading' :disabled='isLoading'>
           <span>loading..</span>
         </button>
-        <button v-else :disabled='!checkInputCheck'>
+        <button class="buttonSihIn" v-else>
           <span>Sign In</span>
         </button>
       </form>
+      <div class="linkBlok">
+          <a class="linkPassword" href="https://my.shtab.app/auth/restore-password" target="_blank">Forgot your password?</a>
+      </div>
+    </div>
   </div>
 </template>
 <script setup lang="ts">
@@ -42,12 +57,10 @@
   const { value: email, errorMessage: emailError } = useField('email', validateFieldInput)
   const { value: password, errorMessage: passwordError } = useField('password', validateFieldPassword)
 
-  const checkInputCheck = ref(false)
   function validateFieldInput(value: string) {
     if (!value) {
       return 'this field is required';
     }
-    checkInputCheck.value = true
     return true;
   }
   function validateFieldPassword(value: string) {
@@ -58,40 +71,79 @@
   }
 
   const checkForm = ref(false)
-  const errorCheck = (check: boolean) => {
-    checkForm.value = check
+
+  const passwordVisibility = ref(true)
+  const togglePasswordVisibility = () => {    
+    passwordVisibility.value = !passwordVisibility.value
   }
+
+  const redirectRegister = () => {
+    const url = 'https://my.shtab.app/auth/registration';
+    window.open(url , '_blank');
+  }
+
 
   const apiUrl = 'https://my.shtab.app/api/users/user/login/'
   const isLoading = ref(false)
   const tokenCookies = useCookie('token')
 
+  if(tokenCookies.value){
+        navigateTo('/profile')
+  }
+
   async function onSubmit() {
     try {
-      isLoading.value = true
+      isLoading.value = !isLoading.value
       const form: AuthData = {
         username: email.value,
         password: password.value,
       }
       const { data } = await axios.post<AuthResponse>(apiUrl, form);
         tokenCookies.value = data.token
-        errorCheck(false)
-        navigateTo('/profile')
       } catch (error) {
         console.error(error);
+        checkForm.value = true
       } finally {
-        isLoading.value = false
-        errorCheck(true)
+        if(tokenCookies.value){
+          checkForm.value = false
+          navigateTo('/profile')
+        }
+        isLoading.value = !isLoading.value
       }
   }
 </script>
 <style scoped>
+
+.togglePassword {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.togglePassword i {
+  font-size: 1.25rem;
+  color: #1c1c1c;
+}
 .app {
     margin-top: 60px;
     display: flex;
     justify-content: center;
     padding: 1rem;
     animation: fade 0.7s;
+}
+.containerApp{
+	width: 100%;
+	max-width: 40%;
+  background: white;
+  border-radius: 10px;
+  padding: 2em;
+  margin: 0 15% 0 15%;
 }
   
 .header {
@@ -105,20 +157,26 @@
 .error {
   color: red;
 }
+.linkBlok{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.linkPassword{
+  color: grey;
+}
+.linkPassword:hover{
+  color: rgb(255, 45, 45);
+}
   
-.login-form {
+.loginForm {
   display: grid;
   place-items: start;
-  background: white;
-	width: 100%;
-	max-width: 60%;
-  border-radius: 10px;
-  padding: 2em;
   grid-gap: .5em;
-  margin: 0 15% 0 15%;
 }
 @media (max-width: 768px){
-    .login-form {
+    .loginForm {
     max-width: 100%;
     margin: 0px 10%;
   }
@@ -144,34 +202,31 @@
 label {
   opacity: 0.6;    
 }
+.blokLogin{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
 
-button {
-  background: none;
+.buttonSihIn{
   width: 100%;
   margin-top: 1rem;
-  border: none;
-  border-radius: 5px;
-  font: inherit;
-  padding: 0.75em 2em;
-  color: white;
-  background: rgb(79,192,141);
   background: 
     linear-gradient(90deg, rgb(217 217 217) 0%, rgb(0 135 199) 100%);
-  font-weight: bold;
-  transition: all .2s ease-in-out;
 }
-  
-button:hover {
-  cursor: pointer;
-  box-shadow: rgb(158 158 158 / 35%) 0px 5px 15px;
+
+.buttonRegister {
+  margin-bottom: 1rem;
+  background: 
+    linear-gradient(90deg, rgb(217 217 217) 0%, rgb(63 215 106) 100%);
 }
+
 .buttonLoading{
+  width: 100%;
+  margin-top: 1rem;
   background: 
     linear-gradient(90deg, rgb(217 217 217) 0%, rgb(125 125 125) 100%)
 }
-  
-button:focus {
-  outline: none;
-  border-width: 2px;
-}
+
 </style>

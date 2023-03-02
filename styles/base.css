@@ -27,3 +27,25 @@ body {
         opacity: 1;
     }
 }
+
+button {
+  background: none;
+  border: none;
+  border-radius: 5px;
+  font: inherit;
+  padding: 0.75em 2em;
+  color: white;
+  font-weight: bold;
+  transition: all .4s ease-in-out;
+}
+  
+button:hover {
+  cursor: pointer;
+  box-shadow: rgb(158 158 158 / 35%) 0px 5px 15px;
+}
+
+  
+button:focus {
+  outline: none;
+  border-width: 2px;
+}
