@@ -678,14 +678,6 @@
   resolved "https://npm.code.nekotal.tech/@trysound%2fsax/-/sax-0.2.0.tgz"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@types/eslint@^8.4.5":
-  version "8.21.1"
-  resolved "https://npm.code.nekotal.tech/@types%2feslint/-/eslint-8.21.1.tgz"
-  integrity sha512-rc9K8ZpVjNcLs8Fp0dkozd5Pt2Apk1glO4Vgz8ix1u6yFByxfqo5Yavpy65o+93TAe24jr7v+eSBtFLvOQtCRQ==
-  dependencies:
-    "@types/estree" "*"
-    "@types/json-schema" "*"
-
 "@types/node@*", "@types/node@>= 14":
   version "18.14.2"
 
@@ -733,11 +725,6 @@
     "@typescript-eslint/utils" "5.54.0"
     debug "^4.3.4"
     tsutils "^3.21.0"
-
-"@typescript-eslint/types@5.54.0":
-  version "5.54.0"
-  resolved "https://npm.code.nekotal.tech/@typescript-eslint%2ftypes/-/types-5.54.0.tgz"
-  integrity sha512-nExy+fDCBEgqblasfeE3aQ3NuafBUxZxgxXcYfzYRZFHdVvk5q60KhCSkG0noHgHRo/xQ/BOzURLZAafFpTkmQ==
 
 "@typescript-eslint/typescript-estree@5.54.0":
   version "5.54.0"
