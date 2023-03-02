@@ -1,4 +1,6 @@
 <template>
-  <NavHeader />
-  <AuthFormSignIn />
+  <div>
+    <NavHeader />
+    <AuthFormSignIn />
+  </div>
 </template>

@@ -40,11 +40,7 @@
         </g>
         <defs>
           <clipPath id="clip0">
-            <rect
-              width="113.273"
-              height="26"
-              fill="white"
-            />
+            <rect width="113.273" height="26" fill="white" />
           </clipPath>
         </defs>
       </svg>
@@ -52,15 +48,15 @@
   </nuxt-link>
 </template>
 <style scoped>
-    .nav{
-        background: rgb(255 255 255);
-        box-shadow: 0px 6px 20px 8px white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-        border: none;
-        height: 100vh;
-        animation: fade 0.7s;
-    }
+.nav {
+  background: rgb(255 255 255);
+  box-shadow: 0px 6px 20px 8px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: none;
+  height: 100vh;
+  animation: fade 0.7s;
+}
 </style>
