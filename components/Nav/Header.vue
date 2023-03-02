@@ -56,6 +56,6 @@
   justify-content: center;
   padding: 1rem;
   border: none;
-  animation: fade 0.7s;
+  animation: smoothly 0.7s;
 }
 </style>
